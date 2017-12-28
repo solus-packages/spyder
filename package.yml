@@ -1,9 +1,9 @@
 name       : spyder
-version    : 3.2.4
-release    : 1
+version    : 3.2.5
+release    : 2
 source     :
-    - https://github.com/spyder-ide/spyder/archive/v3.2.4.tar.gz : 5206a69193038fb29b6d0a5a68591c4222d2abdb058bdfef87081f0d48ea80be
-license    : 
+    - https://github.com/spyder-ide/spyder/archive/v3.2.5.tar.gz : 44679c70069514d6ed2f582080ee6bae5eebdef3be11279c64250eef52b6a027
+license    :
     - BSD-3-Clause
     - CC-BY-2.5
     - CC-BY-3.0
@@ -30,9 +30,11 @@ rundeps    :
     - pygments
     - pylint
     - python-chardet
+    - python-cloudpickle
     - python-jedi
     - python-nbconvert
     - python-numpydoc
+    - python-opengl
     - python-pandas
     - python-pickleshare
     - python-psutil
